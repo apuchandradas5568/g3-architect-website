@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* =========== Variables =========== */
+:root {
+    --c1: #FF900E;
+    --c2: rgba(255, 144, 14, 0.10);
+    --c3: #131313;
+    --c4: #727272;
+    --c5: #fff;
+}
+
+/* Shared CSS */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+    transition: all .5s linear;
+}
+
+body {
+    font-size: 16px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c4);
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+p {
+    font-style: 1rem;
+}
+
+.dec_text {
+    color: var(--c4);
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn_primary {
+    color: var(--c5);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 1.25rem 1.5rem;
+    background: var(--c1);
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+.btn_primary:hover{
+    transform: scale(.9);
+}
+
+
+/* ============ Header CSS ===================== */
+header {
+    background: var(--c2);
+    width: 100vw;
+    height: max-content;
+    padding: 3rem 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .nav_Logo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--c3);
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+header nav ul li a:hover {
+    color: var(--c3);
+    font-weight: 600;
+}
+
+header .banner_section_content {
+    width: 65%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+header .banner_content_title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 5rem 0 2rem 0;
+    text-align: center;
+}
+
+
+header .banner_section_img img {
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: .5rem;
+}
+
+/* ============ Main CSS ===================== */
+
+/* ============ Footer CSS ===================== */
+
+
+
+
+/* ============ Responsive CSS ===================== */
+
+
+
+/* ============ Responsive CSS for Small Device ===================== */
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    header .banner_section_img {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
+
+/* ============ Responsive CSS for Medium Device ===================== */
