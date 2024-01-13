@@ -335,6 +335,9 @@ footer p{
     header .banner_content_title {
         font-size: 2.5rem;
     }
+    nav .nav_Logo{
+        margin-bottom: 1rem;
+    }
 
     .feature_section .images {
         grid-template-columns: repeat(1, 1fr);
