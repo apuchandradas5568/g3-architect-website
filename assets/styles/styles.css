@@ -180,6 +180,7 @@ header .banner_section_img img {
 
 
 /* love and Joy Section */
+
 .love_joy_sec {
     display: flex;
     align-items: center;
@@ -239,7 +240,48 @@ header .banner_section_img img {
 }
 
 
+/* some facts section */
+.some_facts_section .dec_text {
+    width: 80%;
+}
 
+.some_facts_section .box_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
+.some_facts_section .box_container .box {
+    border: .125rem solid var(--c1);
+    border-radius: .5rem;
+    padding: 1.5rem;
+    color: var(--c4);
+    font-weight: 600;
+    width: 241.831px;
+    height: 241.831px;
+
+}
+
+.some_facts_section .box_container .box img {
+    margin: 2rem auto auto auto;
+    width: 30%;
+
+}
+
+.some_facts_section .box_container .box h2 {
+    margin: 1rem auto 0;
+    font-size: 3rem;
+}
+
+.some_facts_section .box_container .box h4 {
+    margin-top: 1rem;
+    font-weight: 500;
+}
 
 
 
