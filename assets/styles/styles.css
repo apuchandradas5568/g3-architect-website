@@ -13,8 +13,6 @@
 
 /* Shared CSS */
 
-
-
 * {
     margin: 0;
     padding: 0;
@@ -95,6 +93,8 @@ header nav .nav_Logo {
     font-size: 3rem;
     font-weight: 700;
     color: var(--c3);
+    line-height: 2rem;
+    cursor: pointer;
 }
 
 header nav ul {
@@ -141,6 +141,7 @@ header .banner_section_img img {
 /* ============ Main CSS ===================== */
 
 /* Feature Section CSS */
+
 .feature_section {
     display: flex;
     align-items: center;
@@ -180,7 +181,6 @@ header .banner_section_img img {
 
 
 /* love and Joy Section */
-
 .love_joy_sec {
     display: flex;
     align-items: center;
@@ -285,25 +285,40 @@ header .banner_section_img img {
 
 
 
+/* our sponsor section */
 
+.our_sponsor_section {
+    margin: 10rem 0;
+    text-align: center;
 
+}
 
+.our_sponsor_section .sec_title {
+    margin-bottom: 2rem;
+}
 
+.our_sponsor_section .box_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
 
-
-
-
-
-
-
-
-
-
+.box_container img {
+    filter: grayscale(100%);
+    width: 166.757px;
+    height: 50px;
+    margin: 2rem;
+}
 
 /* ============ Footer CSS ===================== */
 
-
-
+footer p{
+    background: var(--c2);
+    padding: 2rem;
+    text-align: center;
+}
 
 /* ============ Responsive CSS ===================== */
 
@@ -311,7 +326,6 @@ header .banner_section_img img {
 
 /* ============ Responsive CSS for Small Device ===================== */
 @media screen and (max-width:576px) {
-
     nav,
     .feature_section,
     .love_joy_sec {
@@ -335,11 +349,8 @@ header .banner_section_img img {
     }
 }
 
-
-
 /* ============ Responsive CSS for Medium Device ===================== */
 @media screen and (min-width:577px) and (max-width:992px) {
-
     .feature_section,
     .love_joy_sec {
         flex-direction: column;
